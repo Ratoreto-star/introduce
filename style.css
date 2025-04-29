@@ -25,6 +25,28 @@ h2{
     font-size: 5.5rem;
     animation: animate 3s infinite linear;
 }
+
+#introduce{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+button{
+    background: linear-gradient(120deg,white 0,1%,blue);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 120px;
+    color: white;
+    height: 50px;
+    transition: all .2s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
 @media screen and (max-width:500px) {
    h2{
     font-size: 3rem;
